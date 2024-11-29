@@ -12,6 +12,7 @@
     />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <header>
@@ -23,7 +24,17 @@
           <li><a href="#">Projects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <img src="./images/icon-hamburger.svg" alt="" id="hamburger">
       </nav>
+      <div id="slide" class="slide-menu">
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Project</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <h1>We are creative</h1>
       <img src="images/icon-arrow-down.svg" alt="arrow" />
     </header>
 
@@ -131,7 +142,6 @@
       <div></div>
       <div></div>
       <div></div>
-
       <div></div>
     </section>
     <footer>
@@ -140,9 +150,15 @@
           <h2><strong>sunnyside</strong></h2>
         </div>
         <div class="navp">
-          <p>About</p>
-          <p class="services"><span>Services</span></p>
-          <p>Project</p>
+          <div class="about">
+            <p>About</p>
+          </div>
+          <div class="services">
+            <p>Services</p>
+          </div>
+          <div class="project">
+            <p>Project</p>
+          </div>
         </div>
         <div class="logo">
           <div class="facebook">
@@ -154,11 +170,13 @@
           <div class="twitter">
             <img src="images/icon-twitter.svg" alt="Twitter logo" />
           </div>
-          <div class="Pinterest">
+          <div class="pinterest">
             <img src="images/icon-pinterest.svg" alt="Pinterest logo" />
           </div>
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
+..
